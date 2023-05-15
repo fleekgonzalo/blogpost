@@ -87,7 +87,7 @@ This feature enables support for redirects, single-page applications, custom 404
 The content of the `_redirects` file should look like this:
 `/* /404.html 404`
 
-Once we update our site with this change, we can now access https://proud-wave-0766.on.fleek.co/about and instead of seeing an intimidating IPFS error message, we will see our custom 404 page, ready to catch any broken or rotten links. You can customize your 404 page however you want, for instance, you could also choose to send the user to your homepage instead:
+Once we update our site with this change, we can now access https://proud-wave-0766.on.fleek.co/about and instead of seeing an intimidating IPFS error message, we will see our custom 404 page, ready to catch any broken or rotten links. You can customize your 404 page however you want, or you could also choose to send the user to your homepage instead:
 
 `/* /index.html 301`
 
